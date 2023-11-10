@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+$primary-bg: rgb(255, 255, 255);
+$secondary-bg: rgb(10, 10, 10);
+
+$primary-color: rgb(255, 255, 255);
+$secondary-color: #000000;
+
+$primary-text: rgb(0, 0, 0);
+$secondary-text: rgb(255, 255, 255);
+
+$black: rgb(15, 15, 15);
+$gray: rgb(25, 25, 25);
+
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  color: $secondary-text;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0f0f;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+:root {
+  --gradient: linear-gradient(45deg, #0170dd, #389cff, #0170dd);
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    align-items: center;
+  }
+}
