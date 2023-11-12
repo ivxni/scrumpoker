@@ -1,0 +1,14 @@
+@use "../../_base";
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: base.$secondary-bg;
+  padding: 5rem;
+
+  img {
+    height: 5vh;
+  }
+}

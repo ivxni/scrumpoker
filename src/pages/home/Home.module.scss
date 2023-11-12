@@ -1,0 +1,26 @@
+@use "../../_base";
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+
+    h1 {
+        font-size: 5vh;
+        margin: 1rem;
+    }
+
+    span {
+        color: base.$grey-text;
+        font-size: 2vh;
+    }
+
+    Button {
+        width: 20rem;
+        height: 3.5rem;
+        font-size: 2vh;
+        margin-top: 2rem;
+    }
+}

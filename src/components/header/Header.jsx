@@ -9,11 +9,12 @@ function Header() {
         <img src={Logo} alt="Logo" />
         <h1>scrumpoker</h1>
       </div>
-      <ul>
-        <li>Sign Up</li>
-        <li>Login</li>
-        <Button className={styles.button} variant={"primary"} label={"New Game"}/>
-      </ul>
+      <nav>
+        <ul>
+          <li>Login</li>
+          <Button variant={"primary"} label={"Create Room"} />
+        </ul>
+      </nav>
     </header>
   );
 }
