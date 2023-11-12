@@ -1,0 +1,16 @@
+@use "../../_base";
+
+button {
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  &.Primary {
+    color: base.$secondary-text;
+    background-color: base.$primary-color;
+  }
+
+  &.Secondary {
+  }
+}
