@@ -15,7 +15,8 @@ header {
 
         h1 {
             font-weight: 300;
-            margin-left: 1rem;
+            margin-left: 0.5rem;
+            color: base.$secondary-text;
         }
 
         img {
@@ -30,6 +31,7 @@ header {
 
         li {
             margin: 1rem;
+            color: base.$secondary-text;
         }
 
         Button {
