@@ -1,0 +1,20 @@
+@use "../../_base";
+
+.login {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+
+    .container {
+        width: 30rem;
+        height: 35rem;
+        border-radius: 8px;
+        background-color: base.$primary-bg;
+    }
+}
