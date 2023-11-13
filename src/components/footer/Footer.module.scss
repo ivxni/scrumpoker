@@ -2,14 +2,29 @@
 
 footer {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: base.$secondary-bg;
+  color: base.$secondary-text;
   padding: 5rem;
-  margin-top: 100%;
+  margin-top: 50vh;
 
-  img {
-    height: 5vh;
+  .footer__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+      height: 1rem;
+    }
+
+    li {
+      list-style: none;
+    }
+  }
+
+  span {
+    margin: 1rem;
   }
 }
