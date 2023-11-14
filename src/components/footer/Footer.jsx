@@ -6,7 +6,9 @@ function Footer() {
     <footer className={styles}>
       <div className={styles.footer__menu}>
         <div className={styles.footer__menu__container}>
-          <img src={Diconium} alt="diconium"></img>
+          <a href="https://weare.diconium.com/de/">
+            <img src={Diconium} alt="diconium"></img>
+          </a>
           <ul>
             Product
             <li>Start new game</li>
