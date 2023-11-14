@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
-  faMugHot,
-  faGear,
   faUser,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
@@ -11,7 +9,7 @@ import Button from "../button/Button";
 
 import styles from "./Login.module.scss";
 
-library.add(faMugHot, faGear, faUser, faXmark);
+library.add(faUser, faXmark);
 
 function Login({ onClose }) {
   return (
